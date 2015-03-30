@@ -3,6 +3,7 @@
 
 
 ###### Mostly for my own reference.
+###### Note: Mysql extension isn't working here.
 
 add to /etc/apt/sources.list:
 ```
