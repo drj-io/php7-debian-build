@@ -2,7 +2,7 @@
 ## Build php7 on Debian 7
 
 
-###### Mostly for my own reference.
+###### Mostly for my own reference.  This should work on a fresh Debian & installation.
 ####### TODO: Install phpmyadmin
 
 add to /etc/apt/sources.list:
@@ -58,9 +58,6 @@ to /etc/environment
 `make install`
 
 `ln -sf /usr/local/php/bin/php /usr/bin/php`
-
-probably not needed:
-` /usr/share/apr-1.0/build/libtool --finish /root/php-src/libs`
 
 add to /etc/apache2/sites-enabled/000-default.conf or other vhost conf file:
 
