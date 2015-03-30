@@ -4,7 +4,7 @@
 
 ###### Mostly for my own reference.
 
-### add to /etc/apt/sources.list:
+add to /etc/apt/sources.list:
 ```
 # Testing repository - main, contrib and non-free branches
 deb http://http.us.debian.org/debian testing main non-free contrib
