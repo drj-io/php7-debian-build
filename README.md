@@ -1,9 +1,9 @@
 # php7-debian-build
 # Build php7 on Debian 7'
 
-## Not currently working ,testing.
+#### Not currently working ,testing.
 
-## Mostly for my own reference.
+#### Mostly for my own reference.
 
 ### add to /etc/apt/sources.list:
 ```
