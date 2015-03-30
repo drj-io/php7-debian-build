@@ -30,12 +30,9 @@ deb-src http://http.us.debian.org/debian unstable main non-free contrib
 
 `apt-get install apache2-dev libpcre3 libpcre3-dev autoconf`
 
-`apt-get install build-essential bison libbz2-dev libjpeg62-dev libpng12-dev libfreetype6-dev libgmp3-dev libmcrypt-dev libmysqlclient-dev libpspell-dev librecode-dev libxml2-dev libt1-dev libcurl4-openssl-dev libjpeg-dev libpng-dev libxpm-dev libmysqlclient-dev libpq-dev libicu-dev libfreetype6-dev libldap2-dev libxslt-dev`
-
-
+`apt-get install build-essential bison libbz2-dev libjpeg62-dev libpng12-dev libfreetype6-dev libgmp3-dev libmcrypt-dev libmysqlclient-dev libpspell-dev librecode-dev libxml2-dev libt1-dev libcurl4-openssl-dev libjpeg-dev libpng-dev libxpm-dev libmysqlclient-dev libpq-dev libicu-dev libfreetype6-dev libldap2-dev libxslt-dev openssl libcurl4-openssl-dev pkg-config git libtool`
 
 `apt-get install mysql-client mysql-server`
-`apt-get install openssl bison libcurl4-openssl-dev pkg-config git libtool`
 
 `apt-get build-dep php5`
 
