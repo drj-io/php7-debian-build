@@ -1,9 +1,8 @@
 # php7-debian-build
 ## Build php7 on Debian 7
 
-#### Not currently working ,testing.
 
-#### Mostly for my own reference.
+###### Mostly for my own reference.
 
 ### add to /etc/apt/sources.list:
 ```
@@ -61,6 +60,10 @@ to /etc/environment
 
 probably not needed:
 ` /usr/share/apr-1.0/build/libtool --finish /root/php-src/libs`
+
+add to /etc/apache2/sites-enabled/000-default.conf or other vhost conf file:
+
+`AddType application/x-httpd-php .php .phtml`
 
 `php -v`
 
