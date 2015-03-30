@@ -1,12 +1,12 @@
 # php7-debian-build
 # Build php7 on Debian 7'
 
-Not currently working ,testing.
+## Not currently working ,testing.
 
-Mostly for my own reference.
+## Mostly for my own reference.
 
-add to /etc/apt/sources.list:
-
+### add to /etc/apt/sources.list:
+```
 # Testing repository - main, contrib and non-free branches
 deb http://http.us.debian.org/debian testing main non-free contrib
 deb-src http://http.us.debian.org/debian testing main non-free contrib
@@ -20,6 +20,8 @@ deb-src http://security.debian.org/ testing/updates main contrib non-free
 # Unstable repo main, contrib and non-free branches, no security updates here
 deb http://http.us.debian.org/debian unstable main non-free contrib
 deb-src http://http.us.debian.org/debian unstable main non-free contrib
+```
+
 apt-get update
 apt-get upgrade
 
