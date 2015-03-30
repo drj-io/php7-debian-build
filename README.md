@@ -3,7 +3,8 @@
 
 
 ###### Mostly for my own reference.
-
+####### TODO: Get mysqli and pdo extensions working
+####### TODO: Install phpmyadmin
 
 add to /etc/apt/sources.list:
 ```
