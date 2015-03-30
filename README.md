@@ -35,6 +35,9 @@ deb-src http://http.us.debian.org/debian unstable main non-free contrib
 `apt-get install mysql-client mysql-server`
 `apt-get install openssl bison libcurl4-openssl-dev pkg-config git libtool`
 
+`apt-get build-dep php5`
+
+
 `git clone https://github.com/php/php-src.git`
 
 add:
