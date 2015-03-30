@@ -2,7 +2,7 @@
 ## Build php7 on Debian 7
 
 
-###### Mostly for my own reference.  This should work on a fresh Debian & installation.
+###### Mostly for my own reference.  Should work on a fresh Debian installation.
 ####### TODO: Install phpmyadmin
 
 add to /etc/apt/sources.list:
