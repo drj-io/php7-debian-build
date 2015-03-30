@@ -50,7 +50,7 @@ to /etc/environment
 `./buildconf`
 
 
-`./configure   --prefix=/usr/local/php   --with-apxs2=/usr/local/apache/bin/apxs   --enable-mbstring   --with-curl   --with-openssl   --with-xmlrpc   --enable-soap   --enable-zip   --with-gd   --with-jpeg-dir   --with-png-dir   --with-mysql   --with-pgsql   --enable-embedded-mysqli   --with-freetype-dir   --enable-intl   --with-xsl  --with-apxs2=/usr/bin/apxs2`
+`./configure   --prefix=/usr/local/php   --with-apxs2=/usr/local/apache/bin/apxs   --enable-mbstring   --with-curl   --with-openssl   --with-xmlrpc   --enable-soap   --enable-zip   --with-gd   --with-jpeg-dir   --with-png-dir     --with-pgsql   --enable-embedded-mysqli   --with-freetype-dir   --enable-intl   --with-xsl  --with-apxs2=/usr/bin/apxs2 --with-mysqli --with-pdo-mysql`
 
 
 `make`
