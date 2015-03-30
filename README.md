@@ -3,7 +3,7 @@
 
 
 ###### Mostly for my own reference.
-###### TODO: Compile with PDO and MySQLi extensions.
+
 
 add to /etc/apt/sources.list:
 ```
