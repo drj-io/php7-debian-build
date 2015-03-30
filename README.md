@@ -23,6 +23,7 @@ deb-src http://http.us.debian.org/debian unstable main non-free contrib
 ```
 
 `apt-get update`
+
 `apt-get upgrade`
 
 `apt-get install apache2 apache2-mpm-event libapache2-mod-fcgid`
