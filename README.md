@@ -3,7 +3,6 @@
 
 
 ###### Mostly for my own reference.
-####### TODO: Get mysqli and pdo extensions working
 ####### TODO: Install phpmyadmin
 
 add to /etc/apt/sources.list:
@@ -74,3 +73,11 @@ PHP 7.0.0-dev (cli) (built: Mar 30 2015 11:23:52)
 Copyright (c) 1997-2015 The PHP Group
 Zend Engine v3.0.0-dev, Copyright (c) 1998-2015 Zend Technologies
 ```
+
+add to /usr/local/php/lib
+``` 
+extension=pdo.so
+extension=pdo_mysql.so
+```
+
+mysql will now work, but I was not able to get it to work with 'localhost'.  I had to bind mysql to * and use the direct server IP.
