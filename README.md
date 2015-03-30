@@ -59,7 +59,8 @@ to /etc/environment
 
 `ln -sf /usr/local/php/bin/php /usr/bin/php`
 
-`/usr/share/apr-1.0/build/libtool`
+probably not needed:
+` /usr/share/apr-1.0/build/libtool --finish /root/php-src/libs`
 
 `php -v`
 
