@@ -1,5 +1,5 @@
-# php7-debian-build
-## Build php7 on Debian 7
+# php7-debian-build install php7 on debian wheezy
+## Build php 7
 
 
 ###### Mostly for my own reference.  Should work on a fresh Debian installation.
